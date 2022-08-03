@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>DELICIOUS CAFE</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noticia+Text&family=Noto+Serif&family=Oswald:wght@300;400;500&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Noticia+Text&family=Noto+Serif&family=Oswald:wght@200&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Karla:wght@300;400&family=Noticia+Text&family=Noto+Serif&family=Oswald:wght@200&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main_common_599.css">
+	<link rel="stylesheet" href="css/main_common_600.css">
+	<link rel="stylesheet" href="css/main_common_1260.css">
+	<link rel="stylesheet" href="css/main_599.css">
+	<link rel="stylesheet" href="css/main_600.css">
+	<link rel="stylesheet" href="css/main_1260.css">
+
+
+	<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+
+	<script>
+
+		$(function(){
+			$(".a").click(function(){
+				$(".b").slideToggle();
+			});
+		});
+
+		$(window).resize(function(){
+			if(window.innerWidth>=1260){
+				$(".b").show();
+			}
+			if(window.innerWidth<=1259){
+				$(".b").hide();
+			}
+		});
+
+	</script>
+
+</head>
+
+
+<body>
+
+	<div id="wrap">
+
+
+		<!--헤더-->
+		<header>
+
+			<div class="small">
+				<div class="logo">
+					<a href="index.html" target="_self">
+						<span id="logo1">DELICIOUS</span> <span id="logo2">CAFÉ</span>
+					</a>
+				</div>
+
+				<img src="img/hamburgar.png" class="a" alt="햄버거">
+			</div>
+
+			<nav class="b">
+				<ul>
+					<li id="home"><a href="index.html">HOME</a></li>
+					<li><a href="sub.html">ABOUT</a></li>
+					<li><a href="sub.html">MENU</a></li>
+					<li><a href="sub.html">BLOG</a></li>
+					<li><a href="sub.html">CONTACT</a></li>
+					<li><button>Reservation</button></li>
+				</ul>
+				
+			</nav>
+
+		</header>
+
+
+
+		<!--슬라이더-->
+		<div id="slider">
+
+			<div id="slider_textbox">
+
+				<p>
+					<span id="slider_textbox_p1">Welcome to</span><br>
+					<span id="slider_textbox_p2">DELICIOUS CAFÉ</span>
+				</p>
+
+				<span id="slider_line"></span>
+
+				<p>
+					<span id="slider_textbox_p3">Fish is one of the most wholesome foods that man can eat. In fact, people have been eating fish throughout human history.</span>
+				</p>
+
+			</div>
+
+			<div id="slider_btnbox">
+				<button id="slider_btnbox_btn1">Book a Table</button>
+				<button id="slider_btnbox_btn2">View Menus</button>
+			</div>
+
+
+			<!--아이콘 시작-->
+			<div id="iconbox">
+
+				<div id="iconbox_sns">
+
+					<div class="iconbox_sns_icon">
+						<img src="img/twiter.png" alt="아이콘1">
+					</div>
+					<div class="iconbox_sns_icon">
+						<img src="img/facebook.png" alt="아이콘2">
+					</div>
+					<div class="iconbox_sns_icon">
+						<img src="img/instagram.png" alt="아이콘3">
+					</div>
+
+				</div>
+
+				<div id="iconbox_call">
+
+					<div class="iconbox_call_icon">
+						<img src="img/call.png" alt="아이콘4">
+					</div>
+					<span>8 (800) 316-06-42</span>
+
+				</div>
+
+			</div>
+			<!--아이콘 끝-->
+
+		</div>
+
+
+
+		<!--섹션 / 메인 1-->
+		<section>
+
+			<div id="main1">
+
+				<p class="section_title_p1">Discover</p>
+				<p class="section_title_p2">NEW FLAVORS</p>
+				<div class="section_line"></div>
+
+				<div id="main1_textbox">
+					<p>Fish is one of the most wholesome foods that man can eat.
+						In fact, people have been eating fish throughout human
+						history. These days, many cooks yearn to add fish to their
+						repertoire, but the whole process of cleaning and filleting
+						fresh fish is a little scary to them. The process of cleaning
+						and filleting fresh fish is <span id="main1_textbox_span"><a href="">relatively simple</a></span> once the steps are
+					understood. To begin, you must clean your fresh fishproperly in order to maintain it’s quality.</p>
+				</div>
+
+				<button>More About Us</button>
+
+			</div>
+
+
+
+			<!--섹션 / 메인 2-->
+			<div id="main2">
+
+				<p class="section_title_p1">Menu</p>
+				<p class="section_title_p2">SPECIAL DISHES</p>
+				<div class="section_line"></div>
+
+				<div id="main2_wrapbox">
+
+					<div class="main2_wrapbox_each">
+
+						<div class="main2_wrapbox_each_imgbox">
+							<img src="img/special1.jpg" alt="스페셜1">
+						</div>
+
+						<div class="main2_wrapbox_each_textbox">
+							<span class="main2_menu">CHERRY BOMB</span>
+							<span class="main2_price">..........................................................................</span>
+							<span class="main2_price">$8.90</span><br>
+							<span class="main2_about1">Dark Chocolate, Cherry, Mascarpone</span><br>
+							<span class="main2_about2">190g. / 240cal.</span>
+							<span class="square_white">V</span>
+							<span class="square_white">K</span>
+							<span class="square_white">S</span>
+						</div>
+
+					</div>
+
+
+					<div class="main2_wrapbox_each">
+
+						<div class="main2_wrapbox_each_imgbox">
+							<img src="img/special2.jpg" alt="스페셜2">
+						</div>
+
+						<div class="main2_wrapbox_each_textbox">
+							<span class="main2_menu">ROASTED LAMB</span>
+							<span class="main2_price">.......................................................................</span>
+							<span class="main2_price">$13.70</span><br>
+							<span class="main2_about1">Boneless Lamb Leg, Garlic, Onion, Spices, Rosemary</span><br>
+							<span class="main2_about2">280g. / 320cal.</span>
+							<span class="square_yellow">SPECIAL</span>
+						</div>
+
+					</div>
+
+
+
+					<div class="main2_wrapbox_each">
+
+						<div class="main2_wrapbox_each_imgbox">
+							<img src="img/special3.jpg" alt="스페셜3">
+						</div>
+
+						<div class="main2_wrapbox_each_textbox">
+							<span class="main2_menu">ASIAN CHICKEN WRAP</span>
+							<span class="main2_price">........................................................</span>
+							<span class="main2_price">$9.99</span><br>
+							<span class="main2_about1">Sliced Chicken, Broccoli Slaw, Mixed Greens, Wrap, Sesame Dressing</span><br>
+							<span class="main2_about2">245g. / 186cal.</span>
+							<span class="square_yellow">SPECIAL</span><span class="square_white">V</span>
+						</div>
+
+					</div>
+
+					<div class="main2_wrapbox_each"></div>
+
+				</div>
+
+				<button>View Full Menu</button>
+
+			</div>
+
+
+
+			<!--섹션 / 메인 3-->
+			<div id="main3">
+
+				<div id="main3_wrapbox">
+
+					<div id="main3_imgbox">
+						<img src="img/main3icon.png" alt="메인3 아이콘">
+						<p class="main3_p">RESERVE A TABLE</p>
+					</div>
+
+				</div>
+
+			</div>
+
+
+
+			<!--섹션 / 메인 4-->
+			<div id="main4">
+
+				<div id="main4_wrapbox1">
+
+					<div id="main4_wrapbox1_imgbox">
+						<img src="img/main4img1.jpg" alt="메인4 이미지1">
+					</div>
+
+					<div id="main4_wrapbox1_textbox">
+
+						<div class="main4_wrapbox1_textbox_line">
+							<img src="img/sofa.png" alt="소파">
+							<p class="bold">BEAUTIFUL INTERIOR</p>
+							<div class="section_line"></div>
+							<p class="pm4">Fish is one of the most wholesome foods that man
+								can eat. In fact, people have been eating fish
+								throughout human history. These days, many cooks
+							yearn to add fish to their repertoire.</p>
+						</div>
+
+					</div>
+
+				</div>
+
+
+				<div id="main4_wrapbox2">
+
+					<div id="main4_wrapbox2_imgbox">
+						<img src="img/main4img2.jpg" alt="메인4 이미지2">
+					</div>
+
+					<div id="main4_wrapbox2_textbox">
+
+						<div class="main4_wrapbox2_textbox_line">
+							<img src="img/apple.png" alt="사과">
+							<p class="bold">ONLY FRESH FOOD</p>
+							<div class="section_line"></div>
+							<p class="pm4">Fish is one of the most wholesome foods that man can
+								eat. In fact, people have been eating fish throughout
+								human history. These days, many cooks yearn to add
+							fish to their repertoire.</p>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+
+
+			<!--섹션 / 메인 5-->
+			<div id="main5">
+
+				<p class="section_title_p1">More Dishes</p>
+				<p class="section_title_p2">FROM OUR MENU</p>
+				<div class="section_line"></div>
+
+				<div id="menut">
+
+					<div class="menut1">
+						<img src="img/menu1.jpg" alt="메뉴1">
+						<span class="m5h1">GREEK AVOCADO TOAST</span>
+						<span class="m5p1">............................................................................................</span>
+						<span class="m5h1">$7.00</span><br>
+						<span class="m5p1">Toasted Bread, Avocado, Feta Cheese, Tomato, Olives</span><br>
+						<span class="m5p2">180g. / 228cal.</span>
+						<span class="square_yellow">SPECIAL</span><span class="mwhite">VEGAN</span><span class="mwhite">KOSHER</span>
+					</div>
+
+					<div class="menut1">
+						<img src="img/menu3.jpeg" alt="메뉴2">
+						<span class="m5h1">GREEK SALAD</span>
+						<span class="m5p1">.......................................................................................................................</span>
+						<span class="m5h1">$8.00</span><br>
+						<span class="m5p1">Iceberg Lettuce, Peppers, Tomato, Feta Cheese, Olive Oil</span><br>
+						<span class="m5p2">195g. / 131cal.</span>
+						<span class="mred">NEW</span><span class="mwhite">VEGAN</span>
+					</div>
+
+					<div class="menut1">
+						<img src="img/menu4.jpeg" alt="메뉴3">
+						<span class="m5h1">TUNA SALAD SANDWICH</span>
+						<span class="m5p1">.........................................................................................</span>
+						<span class="m5h1">$6.90</span><br>
+						<span class="m5p1">Bread, Canned Tuna, Onion, Mayonnaise, Green Salad</span><br>
+						<span class="m5p2">185g. / 235cal.</span>
+						<span class="mwhite">VEGAN</span><span class="mwhite">KOSHER</span>
+					</div>
+
+					<div class="menut1">
+						<img src="img/menu5.jpg" alt="메뉴4">
+						<span class="m5h1">MOJITO</span>
+						<span class="m5p1">........................................................................................................................................</span>
+						<span class="m5h1">$11.00</span><br>
+						<span class="m5p1">White Rum, Lime Juice, Brown Sugar, Soda Water</span><br>
+						<span class="m5p2">250g. / 227cal.</span>
+						<span class="mred">NEW</span><span class="mwhite">VEGAN</span><span class="mwhite">KOSHER</span><span class="mwhite">SPICY</span>
+					</div>
+
+					<div class="menut1">
+						<img src="img/menu6.jpg" alt="메뉴5">
+						<span class="m5h1">GLACE</span>
+						<span class="m5p1">...........................................................................................................................................</span>
+						<span class="m5h1">$5.50</span><br>
+						<span class="m5p1">Espresso, Ice Cream</span><br>
+						<span class="m5p2">250g. / 130cal.</span>
+						<span class="square_yellow">SPECIAL</span>
+					</div>
+
+					<div class="menut1">
+						<img src="img/menu8.jpeg" alt="메뉴6">
+						<span class="m5h1">SEAFOOD RISOTTO RICE</span>
+						<span class="m5p1">.......................................................................................</span>
+						<span class="m5h1">$20.25</span><br>
+						<span class="m5p1">Shrimps, Squid, Fish, Steamed Rice, Creamy Sauce</span><br>
+						<span class="m5p2">220g. / 257cal.</span>
+						<span class="mwhite">VEGAN</span><span class="mwhite">KOSHER</span>
+					</div>
+
+					<div class="menut1">
+						<img src="img/menu9.jpeg" alt="메뉴7">
+						<span class="m5h1">BREAKFAST PANINI</span>
+						<span class="m5p1">.........................................................................................................</span>
+						<span class="m5h1">$7.00</span><br>
+						<span class="m5p1">Pork Belly, Fried Egg, Red Pepper, Tomato, Cheddar</span><br>
+						<span class="m5p2">225g. / 324cal.</span>
+						<span class="mpurple">SEASON</span>
+					</div>
+
+					<div class="menut1">
+						<img src="img/menu10.jpeg" alt="메뉴8">
+						<span class="m5h1">CREAM CHEESE PANCAKES</span>
+						<span class="m5p1">..................................................................................</span>
+						<span class="m5h1">$6.40</span><br>
+						<span class="m5p1">Cream Cheese, Eggs, Sugar, Salt, Butter, Mixed Fruits</span><br>
+						<span class="m5p2">195g. / 260cal.</span>
+						<span class="mwhite">VEGAN</span><span class="mwhite">KOSHER</span><span class="mwhite">SPICY</span>
+					</div>
+
+				</div>
+
+				<button id="m5btn">View Full Menu</button>
+
+			</div>
+
+
+
+			<!--섹션 / 메인 6-->
+			<div id="main6">
+
+				<div id="m6box">
+
+					<div id="m6ib1">
+
+						<div class="m6ibox">
+							<img src="img/main6img11.jpg" alt="DELICIOUS FOOD">
+						</div>
+
+						<div class="m6tbox">
+							<p class="m6h6">DELICIOUS FOOD</p>
+							<p class="pm6">Fish is one of the most wholesome foods that man
+								can eat. In fact, people have been eating fish
+							throughout human history.</p>
+
+							<button>View Menus</button>
+
+						</div>
+
+					</div>
+
+
+					<div id="m6ib2">
+
+						<div class="m6ibox">
+							<img src="img/main6img22.jpg" alt="SPECIAL EVENTS">
+						</div>
+
+						<div class="m6tbox">
+							<p class="m6h6">SPECIAL EVENTS</p>
+							<p class="pm6">Fish is one of the most wholesome foods that man
+								can eat. In fact, people have been eating fish
+							throughout human history.</p>
+
+							<button>Go to Blog</button>
+
+						</div>
+
+					</div>
+
+
+					<div id="m6ib3">
+						<p class="m6h61">WELCOMING ATMOSPHERE</p>
+						<p class="pm61">Fish is one of the most wholesome foods that man can eat. In fact
+							people have been eating fish throughout human history. These days,
+						many cooks yearn to add fish to their repertoire.</p>
+					</div>
+
+
+					<div id="m6ib4">
+
+						<div id="m6line">
+
+							<div id="wine"></div>
+							<p class="pm64">15-18PM</p>
+							<p class="m6h64">HAPPY HOUR</p>
+							<p class="m6h64s">GUY 1 DRINK, GET 1 FREE</p>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+
+
+			<!--섹션 / 메인 7-->
+			<div id="main7">
+
+				<p class="section_title_p1">Reservation</p>
+				<p class="section_title_p3">BOOK YOUR TABLE</p>
+				<div class="section_line"></div>
+
+				<div class="m7tb">
+					<p class="m7p">Fish is one of the most wholesome foods that man can eat. In fact, people
+					have been eating fish throughout human history.</p>
+				</div>
+
+				<button>Book a Table</button>
+
+			</div>
+
+
+
+			<!--섹션 / 메인 8-->
+			<div id="main8">
+
+				<div id="m8b">
+
+					<img src="img/main8img1.jpg" alt="메인8 이미지1">
+
+					<div id="m8tb">
+
+						<p class="lh1">Chief’s Word</p>
+						<p class="lh2">MADE WITH LOVE</p>
+						<div class="lline"></div>
+
+						<p class="pm8">Fish is one of the most wholesome foods that man
+							can eat. In fact, people have been eating fish
+							throughout human history. These days, many cooks
+							yearn to add fish to their repertoire, but the whole
+						process of cleaning and filleting</p>
+
+						<img src="img/main8img2.png" alt="사인">
+
+					</div>
+
+				</div>
+
+			</div>
+
+
+
+			<!--섹션 / 메인 9-->
+			<div id="main9">
+
+				<div class="m9ib">
+
+					<div class="imgbox">
+						<img src="img/m9img1.jpeg" alt="메인9 이미지1">
+						<div class="textbox">
+							<span class="t1">DELICIOUS CAFE</span><br><span class="t2">View More Photos</span>
+						</div>
+					</div>
+
+					<div class="imgbox">
+						<img src="img/m9img2.jpeg" alt="메인9 이미지2">
+						<div class="textbox">
+							<span class="t1">DELICIOUS CAFE</span><br><span class="t2">View More Photos</span>
+						</div>
+					</div>
+
+					<div class="imgbox">
+						<img src="img/m9img3.jpeg" alt="메인9 이미지3">
+						<div class="textbox">
+							<span class="t1">DELICIOUS CAFE</span><br><span class="t2">View More Photos</span>
+						</div>
+					</div>
+
+					<div class="imgbox">
+						<img src="img/m9img4.jpeg" alt="메인9 이미지4">
+						<div class="textbox">
+							<span class="t1">DELICIOUS CAFE</span><br><span class="t2">View More Photos</span>
+						</div>
+					</div>
+
+					<div class="imgbox">
+						<img src="img/m9img5.jpeg" alt="메인9 이미지5">
+						<div class="textbox">
+							<span class="t1">DELICIOUS CAFE</span><br><span class="t2">View More Photos</span>
+						</div>
+					</div>
+
+					<div class="imgbox">
+						<img src="img/m9img6.jpeg" alt="메인9 이미지6">
+						<div class="textbox">
+							<span class="t1">DELICIOUS CAFE</span><br><span class="t2">View More Photos</span>
+						</div>
+					</div>
+
+					<div class="imgbox">
+						<img src="img/m9img7.jpeg" alt="메인9 이미지7">  
+						<div class="textbox">
+							<span class="t1">DELICIOUS CAFE</span><br><span class="t2">View More Photos</span>
+						</div>
+					</div>
+
+					<div class="imgbox">
+						<img src="img/m9img8.jpeg" alt="메인9 이미지8">
+						<div class="textbox">
+							<span class="t1">DELICIOUS CAFE</span><br><span class="t2">View More Photos</span>
+						</div>
+					</div>
+
+					<div class="imgbox">
+						<img src="img/m9img9.jpeg" alt="메인9 이미지9">
+						<div class="textbox">
+							<span class="t1">DELICIOUS CAFE</span><br><span class="t2">View More Photos</span>
+						</div>
+					</div>
+
+					<div class="imgbox">
+						<img src="img/m9img10.jpeg" alt="메인9 이미지10">
+						<div class="textbox">
+							<span class="t1">DELICIOUS CAFE</span><br><span class="t2">View More Photos</span>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+
+
+			<!--섹션 / 메인 10-->
+			<div id="main10">
+				<div id="m10">
+
+					<div id="m10bb">
+
+						<div class="m10line1">
+
+							<div id="paddingbox">
+								<img src="img/main10icon.png" alt="메인10 아이콘">
+								<p class="h103">EASY TO FIND</p>
+								<div class="section_line"></div>
+								<p class="pm101">Delicious Cafe, 1649 Norman Street, Los</p>
+								<p class="pm101">Angeles, 90011</p>
+								<p class="pm102">info@cafedomain.com</p>
+								<p class="pm103">8 (800) 316-06-42</p>
+							</div>
+
+						</div>
+
+						<div class="m10line2">
+
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d694.883737686539!2d-118.17669770108948!3d34.058163106079725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c593fd57dd43%3A0x7fb9602e7a1620e0!2zMTUxNiBOb3JtYW4gUGwsIExvcyBBbmdlbGVzLCBDQSA5MDA2MyDrr7jqta0!5e0!3m2!1sko!2skr!4v1652193685028!5m2!1sko!2skr" width="100" height="100" style="border:0;" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+						</div>
+
+					</div>
+
+
+					<div id="m10sb">
+
+						<div class="m10line3">
+
+							<p class="h101">Welcome</p>
+							<p class="h1031">OPENING HOURS</p>
+
+							<div class="m10tb">
+								<p class="c101">Monday</p>
+								<p class="dot">...........................................</p>
+								<p class="c101">8AM - 10PM</p>
+							</div>
+
+							<div class="m10tb">
+								<p class="c101">Tuesday</p>
+								<p class="dot">...........................................</p>
+								<p class="c101">8AM - 10PM</p>
+							</div>
+
+							<div class="m10tb">
+								<p class="c101">Wednesday</p>
+								<p class="dot">..................................</p>
+								<p class="c101">8AM - 10PM</p>
+							</div>
+
+							<div class="m10tb">
+								<p class="c101">Thursday</p>
+								<p class="dot">........................................</p>
+								<p class="c101">8AM - 10PM</p>
+							</div>
+
+							<div class="m10tb">
+								<p class="c101">Friday</p>
+								<p class="dot">................................................</p>
+								<p class="c101">8AM - 10PM</p>
+							</div>
+
+							<div class="m10tb">
+								<p class="c101">Saturday</p>
+								<p class="dot">........................................</p>
+								<p class="c101">8AM - 10PM</p>
+							</div>
+
+							<div class="m10tb">
+								<p class="c101">Sunday</p>
+								<p class="dot">.....................................................</p>
+								<p class="c101"><span>CLOSED</span></p>
+							</div>
+
+							<div id="m10button">
+								<button>Reservation</button>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+
+
+
+		<!--푸터-->
+		<footer>
+
+			<div id="footer">
+
+				<div id="ftop">
+
+					<div class="ftbox1">
+						<p class="hft1">CONTACT INFO</p>
+						<p class="pft0">Delicious Cafe, 1649 Norman Street,</p>
+						<p class="pft0">Los Angeles, 90011</p>
+						<p class="pft1"><a href="">hello@deliciouscafe.com</a></p>
+						<p class="pft0">8 (800) 316-06-42</p>
+
+						<div id="iconbox3">
+
+							<div class="icon3">
+								<img src="img/twiter.png" alt="아이콘1">
+							</div>
+							<div class="icon3">
+								<img src="img/facebook.png" alt="아이콘2">
+							</div>
+							<div class="icon3">
+								<img src="img/instagram.png" alt="아이콘3">
+							</div>
+
+						</div>
+					</div>
+
+
+					<div class="ftbox2">
+
+						<p class="hft1">NAVIGATION</p>
+
+						<ul>
+							<li class="pft2"><a href="">Home</a></li>
+							<li class="pft2"><a href="">Menu</a><span>UPDATED</span></li>
+							<li class="pft2"><a href="">Blog</a></li>
+							<li class="pft2"><a href="">About</a></li>
+							<li class="pft2"><a href="">Contact</a></li>
+							<li class="pft1"><a href="">Book a Table</a></li>
+						</ul>
+
+					</div>
+
+
+					<div class="ftbox3">
+
+						<p class="hft1">RECENT POSTS</p>
+
+						<ul>
+							<li class="pft3t">July 30, 2017</li>
+							<li class="pft3b"><a href="">Barbecue party tips for a truly<br>
+							amazing event</a></li>
+
+							<li class="fline"></li>
+
+							<li class="pft3t">August 9, 2017</li>
+							<li class="pft3b"><a href="">The principles of scientific cooking</a></li>
+
+							<li class="fline"></li>
+
+							<li class="pft3t">September 24, 2017</li>
+							<li class="pft3b"><a href="">Cooking for one</a></li>
+
+							<li class="fline"></li>
+
+							<li class="pft3b"><a href="">View All Posts</a></li>
+						</ul>
+
+					</div>
+
+
+					<div class="ftbox4">
+
+						<ul>
+							<li class="hft1">INSTAGRAM</li>
+						</ul>
+
+						<div class="finsta">
+
+							<div class="fib1">
+								<img src="img/insta1.jpg" alt="인스타1">
+							</div>
+
+							<div class="fib2">
+								<img src="img/insta2.jpg" alt="인스타2">
+							</div>
+
+							<div class="fib3">
+								<img src="img/insta3.jpg" alt="인스타3">
+							</div>
+						</div>
+
+						<div class="finsta">
+
+							<div class="fib1">
+								<img src="img/insta4.jpg" alt="인스타4">
+							</div>
+
+							<div class="fib2">
+								<img src="img/insta5.jpg" alt="인스타5">
+							</div>
+
+							<div class="fib3">
+								<img src="img/insta6.jpg" alt="인스타6">
+							</div>
+						</div>
+
+						<p class="pftin2"><a href="">View More Photos</a></p>
+
+					</div>
+
+				</div>
+
+
+				<div id="fbottom">
+
+					<div id="fwbox">
+
+						<ul>
+							<li><span class="fbtg">Created with</span> <span class="fbtr">❤</span> <span class="fbtg">by</span> <a href="">Elastic Themes</a></li>
+							<li>◽<span class="fbtg">Powered by</span> <a href="">Webflow</a></li>
+							<li>◽<a href="">Style Guide</a></li>
+							<li>◽<a href="">Licenses</a></li>
+						</ul>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</footer>
+
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+@media(min-width: 1260px) {
+/*1260px 슬라이더*/
+#slider {max-width:100%; background-image:url("../img/bg_sub_55.jpg"); height:400px; background-size:cover; background-position:center; display: flex; justify-content: space-around; align-items: center; flex-direction: column; background-attachment: fixed; margin: 13px;}
+
+#slider	> h1 {color:#fff; text-align:center;}
+#slider	> p {color:#fff; text-align:center; font-size: 15px; font-family: 'Karla', sans-serif;}
+#slider	> p > a {color:#666; text-decoration:none; background-color:#fff; opacity:0.6; border-radius:20px; padding:10px 20px;}
+
+/*1260px 슬라이더 글씨*/
+#bgt {width: 100%; height:auto; display: flex; justify-content: center; align-items: center; flex-direction: column; padding: 0 120px; margin: 50px 0 0 0px;}
+#bgt .bgt1 {font-family: 'Great Vibes', cursive; font-size: 55px; color: #dfa25f; line-height: 25px;}
+#bgt .bgt2 {font-family: 'Oswald', sans-serif; font-size: 50px; font-weight: 600; letter-spacing: 5px; color: #fff;}
+#bgt .bgt3 {font-family: 'Karla', sans-serif; font-size: 15px; color: #fff;}
+#bgt .bgt4 {font-family: 'Karla', sans-serif; font-size: 14px; color: #fff;}
+
+
+/*1260px 섹션*/
+section {width: 100%; height: auto; margin: 0 auto;}
+
+/*1260px 섹션 제목 + 글씨 + 수평선*/
+section .h1 {font-family: 'Great Vibes', cursive; font-size: 30px; text-align: center; color: #dfa25f;}
+section .h2 {font-family: 'Oswald', sans-serif; text-align: center; font-size: 20px; color: #000; font-weight: 500;}
+section .h3 {font-family: 'Oswald', sans-serif; text-align: center; font-size: 20px; color: #fff; font-weight: 500;}
+
+section p {font-family: 'Karla', sans-serif; font-size: 17px; color: #666; margin: 0 0 5px 0px;}
+
+.line {width: 70px; height: 4px; margin-top: 8px; margin-bottom: 8px; border-top: 1px solid #dfa25f; border-bottom: 1px solid #dfa25f; margin: 20px auto;}
+section .mline {width: 70px; height: 4px; margin-top: 8px; margin-bottom: 8px; border-top: 1px solid #dfa25f; border-bottom: 1px solid #dfa25f; margin: 20px 0px;}
+
+
+/*1260px 섹션*/
+#sub1 {width: 100%; height: auto; margin: 0 auto; display: flex; justify-content: center; align-items: center; flex-direction: column; box-shadow: 3px 3px 3px #eee; padding: 70px 0px;}
+#subbox1 {width: 100%; height: auto; margin: 0 auto; display: flex; justify-content: center; align-items: center;}
+#subbox2 {width: 55%; height: auto; display: flex; flex-direction: row; justify-content: space-between; position: relative;}
+#sub2 {width: 65%; height: auto;}
+#sub3 {width: 30%; height: auto; background-image: url("../img/main2bg.jpg"); background-repeat: repeat; border-radius: 10px; position: absolute; top: 0; right: 0;}
+
+/*1260px 섹션 - sub1 관련 스타일*/
+#sub1 .h1 {font-family: 'Great Vibes', cursive; font-size: 20px; text-align: center; color: #dfa25f; font-weight: 600;}
+#sub1 .h2 {font-family: 'Great Vibes', cursive; font-size: 30px; text-align: center; color: #212c40; font-weight: 600;}
+#sub1 .p {font-family: 'Karla', sans-serif; font-size: 14px; text-align: center; color: #111; line-height: 25px; padding: 0 300px;}
+
+/*1260px 섹션 - sub2 관련 스타일*/
+#sub2 .box1 {width: 100%; height: auto; margin: 0 0 80px 0px;}
+
+#sub2 .imgbox {width: 100%; height: auto;}
+#sub2 img {width: 100%; height: 100%;}
+
+#sub2 .tbox1 {width: 100%; height: auto; padding: 10px 0px;}
+#sub2 .h1 {font-family: 'Oswald', sans-serif; font-size: 17px; color: #dfa25f; text-align: left; line-height: 30px;}
+#sub2 .p1 {font-family: 'Karla', sans-serif; font-size: 14px; color: #111; text-align: left; line-height: 20px;}
+#sub2 .star {color: tomato; font-size: 12px;}
+
+#sub2 .tbox2 {width: 100%; height: auto; padding: 15px 0px;}
+#sub2 .h2 {font-family: 'Oswald', sans-serif; font-size: 17px; color: #dfa25f; text-align: left; line-height: 40px; margin: 5px 0 0 0px;}
+#sub2 .p2 {font-family: 'Karla', sans-serif; font-size: 14px; color: #111; text-align: left; line-height: 20px; margin: 10px 0 0 0px;}
+
+#sub2 .span {font-family: 'Karla', sans-serif; font-size: 16px; color: #111; display: inline;}
+
+#sub2 .red {border: 0; background-color: #f03e5a; color: #fff; font-size: 10px; border-radius: 5px; padding: 5px 10px;}
+#sub2 .red:hover {background-color: #212c40; color: #fff; transition: all 0.5s; cursor: pointer;}
+
+#sub2 .green {border: 0; background-color: yellowgreen; color: #fff; font-size: 10px; border-radius: 5px; padding: 5px 10px;}
+#sub2 .green:hover {background-color: #212c40; color: #fff; transition: all 0.5s; cursor: pointer;}
+
+#sub2 .blue {border: 0; background-color: cadetblue; color: #fff; font-size: 10px; border-radius: 5px; padding: 5px 10px;}
+#sub2 .blue:hover {background-color: #212c40; color: #fff; transition: all 0.5s; cursor: pointer;}			
+
+#sub2 .beige {border: 0; background-color: #dfa25f; color: #fff; font-size: 10px; border-radius: 5px; padding: 5px 10px;}
+#sub2 .beige:hover {background-color: #212c40; color: #fff; transition: all 0.5s; cursor: pointer;}
+
+#sub2 .purple {border: 0; background-color: #8756b5; color: #fff; font-size: 10px; border-radius: 5px; padding: 5px 10px;}
+#sub2 .purple:hover {background-color: #212c40; color: #fff; transition: all 0.5s; cursor: pointer;}
+
+#sub2 .btn2 {border: 0; background-color: #dfa25f; color: #fff; font-size: 12px; border-radius: 20px; padding: 10px 20px; margin: 10px 0 0 0px;}
+#sub2 .btn2:hover {background-color: #212c40; color: #fff; transition: all 0.5s;}
+
+/*1260px 섹션 - sub3 관련 스타일*/
+
+/*1260px search*/
+#sub3 .search {width:100%; height:80px; margin: 7px 0px; display: flex; align-items: center; justify-content: center; border-radius: 5px;}
+.search form {width: 90%; height:45px; display: flex;}
+.search form input {height:45px; width: 75%; border: 1px solid #eee; outline: none; padding:0 10px; border-radius: 3px;}
+.search form button {height:45px; width: 25%; background-color: #dfa25f; border: none; cursor: pointer; color: #fff; border-radius: 3px;}
+.search form button img {width: 18px; height: 18px; margin: 5px 0 0 0px;}
+
+/*1260px aboutUs*/
+#sub3 .aboutUs {width:100%; margin: 0 0 30px 0px;}
+.aboutUs h3 {font-family: 'Karla', sans-serif; font-size: 18px; padding: 15px 10px; text-align: center; margin-bottom: 15px; color: #fff; letter-spacing: 1px; background-image: url("../img/main3bg.jpg"); background-repeat: repeat; border-radius: 3px;}
+.aboutUs .aboutbox {width:100%; overflow: hidden; padding: 0 10px;}
+.aboutUs .aboutbox img {width:100%;}
+.aboutUs .aboutbox h4 {font-family: 'Oswald', sans-serif; font-size: 18px; margin:10px 0;}
+.aboutUs .aboutbox p {font-size: 13px; line-height: normal;}
+
+/*1260px posts*/
+#sub3 .posts {width:100%;}
+.posts h3 {font-family: 'Karla', sans-serif; font-size: 18px; padding: 15px 10px; text-align: center; margin-bottom: 15px; color: #fff; letter-spacing: 1px; background-image: url("../img/main3bg.jpg"); background-repeat: repeat; border-radius: 3px;}
+.posts .itembox ul li {display: flex; align-items: center; margin-bottom: 30px; padding: 0 10px;}
+.posts .itembox ul li .imgbox {width: 20%; overflow: hidden; margin-right: 30px;}
+.posts .itembox ul li .imgbox a img {width: 100%;}
+.posts .itembox ul li .textbox h4 {font-size: 14px; padding-bottom: 6px; font-family: 'Karla', sans-serif;}
+.posts .itembox ul li .textbox h4 a {color:#000; text-decoration: none;}
+.posts .itembox ul li .textbox p span {font-size: 11px; font-style: italic; font-family: 'Karla', sans-serif;}
+.posts .itembox ul li .textbox p a {font-size: 12px; color: #000; font-weight: bold; text-decoration: none;}
+
+/*1260px tags*/
+#sub3 .tags {width:100%;}
+.tags h3 {font-family: 'Karla', sans-serif; font-size: 18px; padding: 15px 10px; text-align: center; margin-bottom: 15px; color: #fff; letter-spacing: 1px; background-image: url("../img/main3bg.jpg"); background-repeat: repeat; border-radius: 3px;}
+.tags .tagbox {display: flex; width:100%; margin: 0 0 30px 0px; padding: 0 10px;}
+.tags .tagbox ul {width:100%;}
+.tags .tagbox ul li {display: flex; margin: 3px 5px 3px 0px; float: left;}
+.tags .tagbox ul li a {border: 0; border:1px solid #dfa25f; color: #dfa25f; font-size: 10px; border-radius: 5px; padding: 5px 10px; text-decoration: none;}
+.tags .tagbox ul li a:hover {background-color: #dfa25f; color: #fff; transition: all 0.5s;}
+
+/*1260px categories*/
+#sub3 .categories {width:100%;}
+.categories h3 {font-family: 'Karla', sans-serif; font-size: 18px; padding: 15px 10px; text-align: center; margin-bottom: 5px; color: #fff; letter-spacing: 1px; background-image: url("../img/main3bg.jpg"); background-repeat: repeat; border-radius: 3px;}
+.catebox {margin: 15px 0 35px 0px;}
+.categories .catebox ul li {font-size: 14px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; position: relative; font-family: 'Karla', sans-serif; padding: 0 10px;}
+.categories .catebox ul li::before {content: ''; position: absolute; bottom: 0; left: 10px; right: 50px; border-top: 1px dotted #ccc;}
+.categories .catebox ul li a {color:#000; padding-right: 40px; position: relative; text-decoration: none;}
+.categories .catebox ul li a:hover {color:#dfa25f;}
+.categories .catebox ul li span {font-size: 10px; padding:5px 7px; background-color: #dfa25f; border-radius: 50%; width:20px; height:20px; font-family: 'Karla', sans-serif;}
+
+/*1260px social*/
+#sub3 .social {width:100%;}
+.social h3 {font-family: 'Karla', sans-serif; font-size: 18px; padding: 15px 10px; text-align: center; margin-bottom: 15px; letter-spacing: 1px; color: #fff; background-image: url("../img/main3bg.jpg"); background-repeat: repeat; border-radius: 3px;}
+.social .socialbox ul {display: flex; padding: 0 10px;}
+.social .socialbox ul li {display: flex; margin-right: 15px; background-color: #dfa25f; width:24px; height:24px; border-radius: 3px;}
+
+.socialbox img {width: 16px; height: 16px; margin: 4px 0 0 4px;}
+}

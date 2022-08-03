@@ -1,0 +1,250 @@
+@charset "utf-8";
+
+@media(min-width: 1260px) {
+
+/*1260px 슬라이더*/
+#slider {max-width:100%; background-image:url('../img/bg1-1.jpg'); height:942px; background-size:cover; background-position:center; display: flex; justify-content: space-around; align-items: center; flex-direction: column; background-attachment: fixed; margin: 13px;}
+
+#slider	h1 {color:#fff; text-align:center;}
+#slider	p {color:#fff; text-align:center;}
+#slider	p a {color:#666; text-decoration:none; background-color:#fff; opacity:0.6; border-radius:20px; padding:10px 20px;}
+
+/*1260px 슬라이더 글씨*/
+#slider_textbox {width: 100%; height:350px; display: flex; justify-content: center; align-items: center; flex-direction: column; padding: 0 120px; margin: 190px 0 0 0px;}
+#slider_textbox_p1 {font-family: 'Great Vibes', cursive; display: block; font-size: 55px; color: #dfa25f; line-height: 25px;}
+#slider_textbox_p2 {font-family: 'Oswald', sans-serif; display: block; font-size: 75px; font-weight: 600;}
+#slider_textbox_p3 {font-family: 'Karla', sans-serif; display: block; font-size: 16px; line-height: 25px; padding: 0 200px;}
+
+#slider_line {width: 70px; height: 4px; margin-top: 8px; margin-bottom: 8px; border-top: 1px solid #dfa25f; border-bottom: 1px solid #dfa25f; margin: 20px auto;}
+
+/*1260px 슬라이더 버튼 2개*/
+#slider_btnbox {width: 100%; height: 50px; display: flex; justify-content: center; align-items: center; margin: -100px 0 0 0px;}
+#slider_btnbox_btn1 {display: inline; background-color: #dfa25f; color: #fff; font-family: 'Karla', sans-serif; padding: 16px 30px; margin: 30px 7px; border-radius: 35px; border: 0; font-size: 15px;}
+#slider_btnbox_btn2 {display: inline; color: #fff; font-family: 'Karla', sans-serif; padding: 16px 30px; margin: 30px 7px; border-radius: 35px; border: 1px solid #fff; font-size: 15px; background: transparent;}
+
+#slider_btnbox_btn1:hover {background-color: #212c40; transition: 0.5s; cursor: pointer;}
+#slider_btnbox_btn2:hover {background-color: #fff; transition: 0.5s; color: #212c40; cursor: pointer;}
+
+/*1260px 아이콘 바*/
+#iconbox {width: 65%; height: 40px; display: flex; justify-content: space-between; margin: 150px auto 0px;}
+
+/*1260px sns 아이콘 3개*/
+#iconbox_sns {width: 150px; height: 40px;}
+.iconbox_sns_icon {width: 40px; height: 40px; display: inline-block; border: 1px solid #fff; border-radius: 3px; margin: 0 3px;}
+.iconbox_sns_icon:hover {background-color: #dfa25f; transition: 0.2s; border: 1px solid #dfa25f; cursor: pointer;}
+.iconbox_sns_icon img {width: 16px; height: 16px; margin: 11px;}
+
+/*1000px call 아이콘 + 전화번호*/
+#iconbox_call {width: 160px; height: 40px;}
+#iconbox_call span {font-family: 'Oswald', sans-serif; color: #fff; display: inline-block; width: 120px; float: right; margin: 7px 0px;}
+.iconbox_call_icon {width: 40px; height: 40px; display: inline-block; border-radius: 3px; cursor: pointer;}
+.iconbox_call_icon img {width: 16px; height: 16px; margin: 11px;}
+
+
+/*1260px 섹션*/
+section {width: 100%; height: auto; margin: 0 auto;}
+
+/*1260px 섹션 제목 + 글씨 + 수평선*/
+.section_title_p1 {font-family: 'Great Vibes', cursive; font-size: 38px; text-align: center; color: #dfa25f;}
+.section_title_p2 {font-family: 'Oswald', sans-serif; text-align: center; font-size: 38px; color: #000; font-weight: 500;}
+.section_title_p3 {font-family: 'Oswald', sans-serif; text-align: center; font-size: 38px; color: #fff; font-weight: 500;}
+
+section p {font-family: 'Karla', sans-serif; font-size: 17px; color: #666; margin: 0 0 5px 0px;}
+
+.section_line {width: 70px; height: 4px; margin-top: 8px; margin-bottom: 8px; border-top: 1px solid #dfa25f; border-bottom: 1px solid #dfa25f; margin: 20px 0px;}
+
+
+/*1260px 섹션 - 메인 10개*/
+#main1 {width: 100%; height: auto; margin: 0 auto; padding: 120px 0px; display: flex; justify-content: center; align-items: center; flex-direction: column;}
+#main2 {width: 100%; height: auto; margin: 0 auto; padding: 120px 0px; background-image: url('../img/main2bg.jpg'); background-repeat: repeat; display: flex; justify-content: center; align-items: center; flex-direction: column;}
+#main3 {width: 100%; height: auto; margin: 0 auto; background-color: #fff; padding: 12px;}
+#main3:hover {background-color: #dfa25f; transition: 0.5s; cursor: pointer;}
+#main4 {width: 100%; height: auto; margin: 0 auto; background-image: url('../img/main2bg.jpg'); background-repeat: repeat; overflow: hidden; padding: 120px 0px; display: flex; justify-content: center; align-items: center; flex-direction: column;}
+#main5 {width: 100%; height: auto; margin: 0 auto; padding: 120px 0px; display: flex; justify-content: center; align-items: center; flex-direction: column;}
+#main6 {width: 100%; height: auto; margin: 0 auto; background-image: url('../img/main2bg.jpg'); background-repeat: repeat;  padding: 120px 0px; overflow: hidden;}
+#main7 {width: 100%; height: auto; margin: 0 auto; background-image: url('../img/main7bg1.png'); background-repeat: repeat; background-attachment: fixed; padding: 90px 0px; background-size: cover; display: flex; align-items: center; justify-content: center; flex-direction: column;}
+#main8 {width: 100%; height: auto; margin: 0 auto; background-image: url('../img/main2bg.jpg'); background-repeat: repeat; padding: 120px 0px; overflow: hidden;}
+#main9 {width: 100%; height: auto; margin: 0 auto; padding: 9px 10px; overflow: hidden; display: flex; justify-content: space-between; flex-flow: row wrap;}
+#main10 {width: 100%; height: auto; margin: 0 auto; background-image: url('../img/main2bg.jpg'); background-repeat: repeat; overflow: hidden; padding: 120px 0px; display: flex; justify-content: space-around; align-items: center; flex-direction: row; position: relative;}
+
+
+/*1260px 메인1 관련 스타일*/
+#main1_textbox {width: 60%; height: 160px; margin: 0 auto;}
+
+#main1_textbox p {font-family: 'Karla', sans-serif; font-size: 17px; color: #777; line-height: 30px; text-align: center; padding: 0px 15px;}
+
+#main1_textbox_span a {color: #dfa25f; text-decoration: underline;}
+#main1_textbox_span a:hover {color: #EE3F5A; text-decoration: underline; transition: all 0.5s;}
+
+#main1 button {display: inline; background-color: #E0A25F; color: #fff; font-family: 'Karla', sans-serif; padding: 16px 30px; margin: 0px 7px; border-radius: 35px; border: 0; font-size: 15px;}
+#main1 button:hover {background-color: #212c40; transition: 0.5s; cursor: pointer;}
+
+
+/*1260px 메인2 관련 스타일*/
+#main2_wrapbox {width:1170px; height:500px; margin:0 auto; display:flex; justify-content:space-evenly; flex-flow: row wrap;}
+
+.main2_wrapbox_each {width:370px; height:360px;}
+
+.main2_wrapbox_each_imgbox {width: 370px; height: 370px;}
+.main2_wrapbox_each_imgbox img {width: 100%; height: 100%;}
+
+.main2_wrapbox_each_textbox {width: 370px; height: 100px; padding: 15px 0px;}
+.main2_wrapbox_each_textbox .main2_menu {display: inline; font-size: 16px; color: #000; font-family: 'Karla', sans-serif; font-weight: 600;}
+.main2_wrapbox_each_textbox .main2_price {display: inline; font-size: 16px; color: #000; font-family: 'Karla', sans-serif;}
+.main2_wrapbox_each_textbox .main2_about1 {display: inline; font-size: 13px; color: #777; font-family: 'Karla', sans-serif;}
+.main2_wrapbox_each_textbox .main2_about2 {display: inline; font-size: 13px; color: #000; font-family: 'Karla', sans-serif;}
+
+#main2 button {display: inline; background-color: #E0A25F; color: #fff; font-family: 'Karla', sans-serif; padding: 16px 30px; margin: 10px 7px; border-radius: 35px; border: 0; font-size: 15px;}
+#main2 button:hover {background-color: #212c40; transition: 0.5s; cursor: pointer;}
+
+.square_white {color: #111; background-color: #fff; border: 1px solid #ddd; padding: 3px 6px; border-radius: 4px; font-family: 'Karla', sans-serif; font-size: 12px; margin: 0 5px 0 0px;}
+
+
+/*1260px 메인3 관련 스타일*/
+#main3_wrapbox {background-image: url('../img/main3bg.jpg'); background-repeat: repeat; background-attachment: fixed; overflow: hidden; width: 100%; height: 305px;}
+#main3_imgbox {width: 275px; height: 120px; margin: 85px auto 0px;}
+#main3_imgbox img {margin: 10px auto; width: 64px; height: 64px; display: block;}
+.main3_p {font-family: 'Oswald', sans-serif; text-align: center; font-size: 35px; color: #fff; font-weight: 500;}
+
+
+/*1260px 메인4 관련 스타일*/
+#main4_wrapbox1 {width: 1200px; height: 570px; margin: 0 auto 80px;}
+#main4_wrapbox2 {width: 1200px; height: 570px; margin: 0 auto;}
+
+.m4bline {width:95%; height:95%; position:absolute; border:1px solid #ddd; top:2.5%; left:2.5%; padding: 40px 0px; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+
+#main4_wrapbox1_imgbox {width: 800px; height: 570px; position:relative; margin-left: 30px;}
+#main4_wrapbox1_imgbox img {width: 100%; height: 100%;}
+
+#main4_wrapbox2_imgbox {width: 800px; height: 570px; position:relative; margin: 0 0 0 400px;}
+#main4_wrapbox2_imgbox img {width: 100%; height: 100%;}
+
+#main4_wrapbox1_textbox {width: 544px; height: 408px; background-color: #fff; position:absolute; margin: 80px 0 80px 655px; box-shadow: 1px 1px 1px #eee;}
+#main4_wrapbox2_textbox {width: 544px; height: 408px; background-color: #fff; position:absolute; margin: 80px 0px 80px -600px; box-shadow: 1px 1px 1px #eee;}
+
+.main4_wrapbox1_textbox_line {width: 95%; height: 95%; position: relative; border: 1px solid #ddd; top: 2.5%; left: 2.5%; padding: 40px 0px; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+.main4_wrapbox2_textbox_line {width: 95%; height: 95%; position: relative; border: 1px solid #ddd; top: 2.5%; left: 2.5%; padding: 40px 0px; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+
+.main4_wrapbox1_textbox_line img {width: 64px; height: 64px; margin: 0 150px;}
+.main4_wrapbox2_textbox_line img {width: 64px; height: 64px; margin: 0 150px;}
+
+.pm4 {font-family: 'Karla', sans-serif; font-size: 15px; color: #777; text-align: center; padding: 0 55px; line-height: 25px;}
+
+#main4_wrapbox1 .bold {font-family: 'Oswald', sans-serif; text-align: center; font-size: 28px; color: #111; font-weight: 500; line-height: 50px;}
+#main4_wrapbox2 .bold {font-family: 'Oswald', sans-serif; text-align: center; font-size: 28px; color: #111; font-weight: 500; line-height: 50px;}
+
+
+/*1260px 메인5 관련 스타일*/
+#menut {width: 1150px; height: 550px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-flow: row wrap; padding: 30px 0px;}
+
+.menut1 {width: 550px; height: 120px; padding: 20px 15px;}
+.menut1 img {width: 80px; height: 80px; float: left; margin: 0 20px 0 0px; border-radius: 50%; overflow: hidden;}
+
+.m5h1 {display: inline; font-size: 15px; color: #111; font-family: 'Karla', sans-serif; font-weight: 600;}
+.m5p1 {display: inline; font-size: 13px; color: #777; font-family: 'Karla', sans-serif;}
+.m5p2 {display: inline; font-size: 13px; color: #111; font-family: 'Karla', sans-serif;}
+
+#m5btn {width: 160px; height: 50px; margin: 0 auto; background-color: #E0A25F; color: #fff; font-family: 'Karla', sans-serif; padding: 10px 20px; border-radius: 35px; border: 0; font-size: 15px;}
+
+#m5btn:hover {background-color: #212c40; transition: 0.5s; cursor: pointer;}
+
+.square_yellow {color: #fff; background-color: #dfa25f; border: 1px solid #dfa25f; padding: 3px 8px; border-radius: 4px; font-family: 'Karla', sans-serif; font-size: 11px; margin: 0 5px 0 0px;}
+.mwhite {color: #111; background-color: #fff; border: 1px solid #ddd; padding: 3px 8px; border-radius: 4px; font-family: 'Karla', sans-serif; font-size: 11px; margin: 0 5px 0 0px;}
+.mred {color: #fff; background-color: #f03e5a; border: 1px solid #f03e5a; padding: 3px 8px; border-radius: 4px; font-family: 'Karla', sans-serif; font-size: 11px; margin: 0 5px 0 0px;}
+.mpurple {color: #fff; background-color: #8756b5; border: 1px solid #8756b5; padding: 3px 8px; border-radius: 4px; font-family: 'Karla', sans-serif; font-size: 11px; margin: 0 5px 0 0px;}
+
+
+/*1260px 메인6 관련 스타일*/
+#m6box {width: 990px; height: 580px; margin: 0 auto;}
+#m6ib1 {width: 480px; height: 310px; margin: 0 auto; float: left; margin: 0 0 25px 0px; background-image: url('../img/main6img11.jpg'); overflow: hidden; background-size: cover;}
+#m6ib2 {width: 480px; height: 310px; margin: 0 auto; float: right;  margin: 0 0 25px 0px; background-image: url('../img/main6img22.jpg'); overflow: hidden; background-size: cover;}
+#m6ib3 {width: 580px; height: 190px; margin: 0 auto; float: left; background-color: #fff; border-left: 4px solid #dfa25f; box-shadow: 3px 3px 3px #eee; padding: 35px;}
+#m6ib4 {width: 380px; height: 190px; margin: 0 auto; background-color: #EE3F5A; float: right; box-shadow: 3px 3px 3px #ddd;}
+
+#m6ib4 #m6line {width: 360px; height: 170px; border: 1px solid #fff; margin: 10px auto;}
+#m6ib4 #m6line #wine {width: 130px; height: 125px; background-image: url('../img/wine.png'); overflow: hidden; background-repeat: no-repeat; background-size: contain; float: right; margin: 20px 15px;}
+
+.m6ibox {width:100%; height:310px;}
+.m6ibox img {width:100%; height:310px;}
+.m6tbox {width:100%; height:310px; padding:10px; position:relative; left:0; bottom:260px; color:#fff; text-align: center;}
+
+#m6box .m6h6 {font-family: 'Oswald', sans-serif; text-align: center; font-size: 26px; color: #fff; font-weight: 600; margin: 0 0 20px 0px;}
+#m6box .pm6 {font-family: 'Karla', sans-serif; font-size: 14px; color: #fff; text-align: center; margin: 0 0 8px 0px; line-height: 25px; padding: 0 50px;}
+
+#m6box .m6h61 {font-family: 'Oswald', sans-serif; text-align: left; font-size: 22px; color: #111; font-weight: 600; margin: 0 0 15px 0px;}
+#m6box .pm61 {font-family: 'Karla', sans-serif; font-size: 14px; color: #777; text-align: left; margin: 0 0 8px 0px; line-height: 25px;}
+
+#main6 button {background-color: #E0A25F; color: #fff; font-family: 'Karla', sans-serif; margin: 10px 0 0 0px; padding: 12px 20px; border-radius: 35px; border: 0; font-size: 13px;}
+#main6 button:hover {background-color: #fff; color: #212c40; transition: 0.5s; cursor: pointer;}
+
+#m6box .m6h64 {font-family: 'Oswald', sans-serif; text-align: left; font-size: 34px; color: #fff; font-weight: 600; margin: 0 0 5px 20px;}
+#m6box .m6h64s {font-family: 'Oswald', sans-serif; text-align: left; font-size: 17px; color: #fff; font-weight: 600; margin: 0 0 0 20px;}
+#m6box .pm64 {font-family: 'Karla', sans-serif; font-size: 12px; color: #fff; text-align: left; margin: 30px 0 10px 20px;  border: 1px solid #fff; border-radius: 3px; width: 65px; padding: 3px; text-align: center;}
+
+
+/*1260px 메인7 관련 스타일*/
+.m7tb {width: 600px; height: 130px; margin: 0 auto; text-align: center;}
+.m7p {color: #fff; margin: 5px 0px; line-height: 25px;}
+
+#main7 button {background-color: #E0A25F; color: #fff; font-family: 'Karla', sans-serif; margin: -40px 0 0 0px; padding: 16px 30px; border-radius: 35px; border: 0; font-size: 15px;}
+#main7 button:hover {background-color: #212c40; transition: 0.5s; cursor: pointer;}
+
+
+/*1260px 메인8 관련 스타일*/
+#m8b {width: 1000px; height: 637px;}
+#m8b img {width: 468px; height: 637px; float: left;}
+#m8tb {float: right; width: 468px; height: 637px; padding: 150px 40px;}
+#main8tbox1 {width: 468px; height: 300px; margin: 0 auto; text-align: left;}
+
+.lh1 {font-family: 'Great Vibes', cursive; font-size: 38px; text-align: left; color: #dfa25f;}
+.lh2 {font-family: 'Oswald', sans-serif; text-align: left; font-size: 38px; color: #000; font-weight: 500;}
+.lline {width: 70px; height: 4px; margin-top: 8px; margin-bottom: 8px; border-top: 1px solid #dfa25f; border-bottom: 1px solid #dfa25f; margin: 20px 0px;}
+
+.pm8 {font-family: 'Karla', sans-serif; font-size: 15px; color: #777; text-align: left;}
+#m8tb img {width: 184px; height: 59px; float: left; margin: 25px 0 0 0px;}
+
+
+/*1260px 메인9 관련 스타일*/
+.m9ib {width: 100%; height: auto; float: left; margin: 3px; display: flex; justify-content: space-between; align-items: center; flex-flow: row wrap;}
+
+.imgbox {width:19.5%; height:auto; overflow:hidden; position:relative; cursor:pointer; display:inline-block; margin: 0.2% 0.1%;}
+.imgbox > img {width:100%; height:100%;}
+.imgbox .t1 {color:#dfa25f; text-align:center; margin:20px 0 0 0px; font-size:19px; line-height:200%; position:absolute; top:30%; left:0; display:inline-block; text-align:center; width:100%; font-family: 'Oswald', sans-serif; height: auto;}
+.imgbox .t2 {color:#fff; text-align:center; margin:20px 0 0 0px; font-size:17px; line-height:200%; position:absolute; top:45%; left:0; display:inline-block; text-align:center; width:100%; font-family: 'Karla', sans-serif; height: auto;}
+
+
+.textbox {float:left; width:100%; height:98.5%; background-color:black; opacity:0; transition:all 0.5s ease; position:absolute; top:0; left:0;}
+.textbox:hover {opacity:0.7;}
+
+
+/*1260px 메인10 관련 스타일*/
+#m10 {width: 1260px; height: 465px; display: flex; flex-direction: row; justify-content: space-around;}
+#m10bb {width: 800px; height: 465px; background-color: #fff; box-shadow: 2px 2px 2px #eee;}
+#m10sb {width: 350px; height: 465px; background-color: #fff; background-image: url('../img/main3bg.jpg'); background-repeat: repeat; margin: -1px 0 0 0px;}
+.m10line1 {width: 47%; height: 95%; border: 1px solid #ddd; display: inline-block; margin: 0 1%; display: flex; justify-content: center; align-items: center; flex-direction: column;}
+.m10line2 {width: 47%; height: 95%; display: inline-block; margin: 0 1%;}
+.m10line3 {width: 95%; height: 95%; border: 1px solid #ddd; display: inline-block; display: flex; justify-content: center; align-items: center; flex-direction: column;}
+
+#main10 .h101 {font-family: 'Great Vibes', cursive; font-size: 30px; text-align: center; color: #dfa25f; margin: 7% 0 0 0%;}
+#main10 .h103 {font-family: 'Oswald', sans-serif; text-align: center; font-size: 24px; color: #111; font-weight: 500;}
+#main10 .h1031 {font-family: 'Oswald', sans-serif; text-align: center; font-size: 24px; color: #fff; font-weight: 500;}
+
+#paddingbox {width: 100%; height: auto; position: absolute;}
+#paddingbox img {width: 56px; height: 56px;}
+.pm101 {font-family: 'Karla', sans-serif; font-size: 14px; color: #777; text-align: center;}
+.pm102 {font-family: 'Karla', sans-serif; font-size: 14px; color: #111; text-align: center; line-height: 25px;}
+.pm103 {font-family: 'Karla', sans-serif; font-size: 14px; color: #f03e5a; text-align: center; line-height: 25px;}
+
+.m10tb {width: 243px; height: auto; line-height: 25px; margin: 1% 0 0 0%;}
+.m10tb .c101 {font-family: 'Karla', sans-serif; font-size: 14px; color: #fff; text-align: left; display: inline-block;}
+.m10tb .dot {font-size: 14px; color: #fff; text-align: left; display: inline-block; font-family: 'Karla', sans-serif;}
+
+#m10button {width: 110px; height: 39px; margin: 25px auto;}
+#m10button button {background-color: #E0A25F; color: #fff; font-family: 'Karla', sans-serif; padding: 12px 20px; border-radius: 35px; border: 0; font-size: 13px;}
+#m10button button:hover {background-color: #fff; color: #212c40; transition: 0.5s; cursor: pointer;}
+
+#main10 span {color: #f03e5a;}
+
+iframe {width: 100%; height: 100%;}
+
+}

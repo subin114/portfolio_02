@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+* {margin:0; box-sizing: border-box;}
+ul,li,ol {list-style:none; margin: 0; padding:0;}
+#wrap {width: 100%; height: auto; margin: 0 auto;}
+
+@media(min-width: 1260px) {
+
+/*1260px 헤더*/
+header {width: 100%; height: 80px; margin: 20px auto 0px; padding: 20px 270px; z-index: 3; position:absolute; font-family: 'Oswald', sans-serif; display: flex; justify-content: space-between;} 
+
+/*1260px 로고*/
+.logo {font-size: 22px; float: left; height: 40px; margin: 2px 6px; color: #fff; font-weight: 500; width: 150px;}
+.logo a {text-decoration: none;}
+#logo1 {color: #dfa25f;}
+#logo2 {color: #fff;}
+
+/*1260px 햄버거 메뉴&네비*/
+nav {width:550px; height:60px; margin: -20px 0 0 0px;}
+nav ul {display: flex; align-items: center; justify-content: space-between; background: transparent;}
+nav li a{text-decoration: none; padding:0 20px; color:#fff;}
+nav li a:hover {color: #dfa25f;}
+.b {display: block;}
+.b li {border: 0;}
+.a{ display: none;}
+
+.navcolor1 {color: #E0A25F;}
+
+nav button {background-color: #dfa25f; color: #fff; border: 0; border-radius: 40px; padding: 10px 24px; line-height: 20px; margin: 20px; font-size: 13px; font-family: 'Karla', sans-serif;}
+nav button:hover {background-color: #212c40; transition: 0.5s; cursor: pointer;}
+
+
+/*1260px 푸터*/
+footer {width: 100%; height: 625px; margin: 0 auto; background-color: #fff; padding: 13px;}
+
+#footer {width: 100%; height: 600px; background-repeat: repeat; background-attachment: fixed; overflow: hidden;  background-image: url('../img/main3bg.jpg');}
+
+#footer #ftop {width: 1170px; height: 505px; margin: 0 auto; padding: 26px 0px;}
+#footer #ftop .ftbox1 {width: 270px; height: 450px; float: left; padding: 50px 0px;}
+#footer #ftop .ftbox2 {width: 270px; height: 450px; float: left; margin: 0 15px 0 30px; padding: 50px 0px;}
+#footer #ftop .ftbox3 {width: 270px; height: 450px; float: left; margin: 0 30px 0 15px; padding: 50px 0px;}
+#footer #ftop .ftbox4 {width: 270px; height: 450px; float: right; padding: 50px 0px;}
+
+/*1260px 푸터 sns 아이콘 3개*/
+#iconbox3 {width: 150px; height: 40px; float: left; margin: 20px 0px;}
+#iconbox3 .icon3 {width: 40px; height: 40px; display: inline-block; border: 1px solid #fff; border-radius: 3px; margin: 0 3px;}
+#iconbox3 .icon3:hover {background-color: #dfa25f; transition: 0.2s; border: 1px solid #dfa25f; cursor: pointer;}
+#iconbox3 .icon3 img {width: 16px; height: 16px; margin: 11px;}
+
+/*1260px 푸터 글씨 스타일*/
+#footer .hft1 {font-family: 'Oswald', sans-serif; text-align: left; font-size: 17px; color: #fff; font-weight: 500; margin: 0 0 35px 0px;}
+.pft0 {font-family: 'Karla', sans-serif; font-size: 15px; color: #fff; text-align: left; margin: 0 0 8px 0px;}
+.pft1 {font-family: 'Karla', sans-serif; font-size: 15px; color: #fff; text-align: left; margin: 25px 0px;}
+.pft1 a {font-family: 'Karla', sans-serif; font-size: 15px; color: #dfa25f; text-decoration: none;}
+.pft1 a:hover {text-decoration: underline; color: #dfa25f; transition: 0.5s;}
+
+.pft2 {font-family: 'Karla', sans-serif; font-size: 15px; color: #fff; text-align: left; margin: 0 0 13px 0px;}
+.pft2 a {font-family: 'Karla', sans-serif; font-size: 15px; color: #fff; text-decoration: none;}
+.pft2 a:hover {text-decoration: underline; color: #fff; transition: 0.5s;}
+.ftbox2 ul span {display: inline; font-family: 'Karla', sans-serif; font-size: 10px; color: #fff; background-color: #f03e5a; border-radius: 5px; padding: 5px 10px; margin: 0 0 0 10px;}
+.ftbox2 ul li {margin: 25px 0px;}
+
+.pft3t {font-family: 'Karla', sans-serif; font-size: 13px; color: #bbb; text-align: left; margin: 13px 0px;}
+.pft3b {font-family: 'Karla', sans-serif; font-size: 15px; color: #fff; text-align: left; margin: 13px 0px;}
+.pft3b a {font-family: 'Karla', sans-serif; font-size: 15px; color: #fff; text-decoration: none;}
+.pft3b a:hover {text-decoration: underline; color: #fff; transition: 0.5s;}
+#footer hr {margin: 10px 0px;}
+.fline {width: 100%; height: 4px; margin-top: 8px; border-top: 1px solid #eee; margin: 20px auto;}
+
+.finsta {width: 100%; height: 80px; margin: 0 0 15px 0px;}
+.finsta .fib1 {width: 80px; height: 80px; float: left;}
+.finsta .fib2 {width: 80px; height: 80px; float: left; margin: 0 15px;}
+.finsta .fib3 {width: 80px; height: 80px; float: right;}
+.finsta img {width: 80px; height: 80px;}
+.finsta img:hover {cursor: pointer;}
+
+.pftin2 {font-family: 'Karla', sans-serif; font-size: 15px; color: #fff; text-align: left; margin: 25px 0px;}
+.pftin2 a {font-family: 'Karla', sans-serif; font-size: 15px; color: #fff; text-decoration: none;}
+.pftin2 a:hover {text-decoration: underline; transition: 0.5s;}
+
+/*1260px 푸터 하단*/
+#footer #fbottom {width: 100%; height: 96px; background-image: url('../img/main10fb.png'); margin: 0 auto; padding: 35px 0px;}
+#fbottom #fwbox {width: 1160px; height: 100%; margin: 0 auto;}
+#fbottom .fbtg {color: #ccc; font-size: 12px; font-family: 'Karla', sans-serif;}
+#fbottom .fbtr {color: red; font-size: 12px; font-family: 'Karla', sans-serif;}
+
+#fbottom ul {width: 1160px; height: 100%; text-align: center;}
+#fbottom ul li {display: inline; margin: 0 5px;}
+#fbottom ul li a {text-decoration: none; color: #fff; font-size: 12px; font-family: 'Karla', sans-serif;}
+#fbottom a:hover {text-decoration: underline; color: #fff; transition: 0.5s;}
+
+}
